@@ -1,4 +1,6 @@
 {
   "item.myfirstmod.onyx": "Onyx",
-  "item.myfirstmod.raw_mithril": "Raw Mithril"
+  "item.myfirstmod.raw_mithril": "Raw Mithril",
+
+  "block.myfirstmod.mithril_ore": "Mithril Ore"
 }
