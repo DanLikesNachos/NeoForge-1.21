@@ -11,7 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> ONYX = ITEMS.register("onyx",
             () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> RAW_MITHRIL = ITEMS.register("raw_mithril",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
