@@ -72,6 +72,7 @@ public class Mod {
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.MITHRIL_ORE);
+            event.accept(ModBlocks.ONYX_ORE);
         }
     }
 
