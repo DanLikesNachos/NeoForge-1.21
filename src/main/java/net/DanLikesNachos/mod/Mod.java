@@ -1,6 +1,7 @@
 package net.DanLikesNachos.mod;
 
 import net.DanLikesNachos.mod.block.ModBlocks;
+import net.DanLikesNachos.mod.item.ModCreativeModeTabs;
 import net.DanLikesNachos.mod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -40,6 +41,8 @@ public class Mod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -65,15 +68,7 @@ public class Mod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ONYX);
-            event.accept(ModItems.RAW_MITHRIL);
-        }
 
-        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.MITHRIL_ORE);
-            event.accept(ModBlocks.ONYX_ORE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

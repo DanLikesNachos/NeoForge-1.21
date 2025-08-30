@@ -13,7 +13,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_MITHRIL = ITEMS.register("raw_mithril",
             () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> RAW_ADAMANTITE = ITEMS.register("raw_adamantite",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MITHRIL_INGOT = ITEMS.register("mithril_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ADAMANTITE_INGOT = ITEMS.register("adamantite_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

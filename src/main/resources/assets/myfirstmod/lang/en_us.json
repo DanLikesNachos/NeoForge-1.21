@@ -1,7 +1,15 @@
 {
   "item.myfirstmod.onyx": "Onyx",
   "item.myfirstmod.raw_mithril": "Raw Mithril",
+  "item.myfirstmod.raw_adamantite": "Raw Adamantite",
+  "item.myfirstmod.mithril_ingot": "Mithril Ingot",
+  "item.myfirstmod.adamantite_ingot": "Adamantite Ingot",
 
   "block.myfirstmod.mithril_ore": "Mithril Ore",
-  "block.myfirstmod.onyx_ore": "Onyx Ore"
+  "block.myfirstmod.onyx_ore": "Onyx Ore",
+  "block.myfirstmod.adamantite_ore": "Adamantite Ore",
+  "block.myfirstmod.mithril_block": "Mithril Block",
+  "block.myfirstmod.adamantite_block": "Adamantite Block",
+
+  "creativetab.myfirstmod.gemforge": "Gemforge"
 }
