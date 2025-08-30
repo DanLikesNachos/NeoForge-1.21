@@ -1,6 +1,7 @@
 package net.DanLikesNachos.mod.block;
 
 import net.DanLikesNachos.mod.Mod;
+import net.DanLikesNachos.mod.block.custom.NaniteInfuser;
 import net.DanLikesNachos.mod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -20,12 +21,20 @@ public class ModBlocks {
             DeferredRegister.createBlocks(Mod.MOD_ID);
 
     public static final DeferredBlock<Block> MITHRIL_ORE = registerBlock("mithril_ore",
-            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+            () -> new DropExperienceBlock(UniformInt.of(3, 5),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> MITHRIL_DEEPSLATE_ORE = registerBlock("mithril_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3, 5),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final DeferredBlock<Block> ONYX_ORE = registerBlock("onyx_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> ONYX_DEEPSLATE_ORE = registerBlock("onyx_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final DeferredBlock<Block> ADAMANTITE_ORE = registerBlock("adamantite_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 5),
@@ -34,9 +43,15 @@ public class ModBlocks {
     public static final DeferredBlock<Block> MITHRIL_BLOCK = registerBlock("mithril_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
     public static final DeferredBlock<Block> ADAMANTITE_BLOCK = registerBlock("adamantite_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    public static final DeferredBlock<Block> NANITE_INFUSER = registerBlock("nanite_infuser",
+            () -> new NaniteInfuser(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -23,12 +23,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_MITHRIL);
                         output.accept(ModItems.RAW_ADAMANTITE);
                         output.accept(ModBlocks.ONYX_ORE);
+                        output.accept(ModBlocks.ONYX_DEEPSLATE_ORE);
                         output.accept(ModBlocks.MITHRIL_ORE);
+                        output.accept(ModBlocks.MITHRIL_DEEPSLATE_ORE);
                         output.accept(ModBlocks.ADAMANTITE_ORE);
                         output.accept(ModBlocks.MITHRIL_BLOCK);
                         output.accept(ModBlocks.ADAMANTITE_BLOCK);
                         output.accept(ModItems.MITHRIL_INGOT);
                         output.accept(ModItems.ADAMANTITE_INGOT);
+                        output.accept(ModItems.CIRCUIT);
+                        output.accept(ModItems.NANO_CIRCUIT);
+                        output.accept(ModItems.CONTAINED_PHOTON);
+                        output.accept(ModItems.PHOTONIC_QUBIT);
+                        output.accept(ModBlocks.NANITE_INFUSER);
                     }).build());
 
 

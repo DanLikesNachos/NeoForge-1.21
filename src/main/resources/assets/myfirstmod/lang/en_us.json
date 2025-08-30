@@ -4,12 +4,19 @@
   "item.myfirstmod.raw_adamantite": "Raw Adamantite",
   "item.myfirstmod.mithril_ingot": "Mithril Ingot",
   "item.myfirstmod.adamantite_ingot": "Adamantite Ingot",
+  "item.myfirstmod.circuit": "Circuit",
+  "item.myfirstmod.nano_circuit": "Nano Circuit",
+  "item.myfirstmod.contained_photon": "Contained Photon",
+  "item.myfirstmod.photonic_qubit": "Photonic Qubit",
 
   "block.myfirstmod.mithril_ore": "Mithril Ore",
+  "block.myfirstmod.mithril_deepslate_ore": "Mithril Deepslate Ore",
   "block.myfirstmod.onyx_ore": "Onyx Ore",
+  "block.myfirstmod.onyx_deepslate_ore": "Onyx Deepslate Ore",
   "block.myfirstmod.adamantite_ore": "Adamantite Ore",
   "block.myfirstmod.mithril_block": "Mithril Block",
   "block.myfirstmod.adamantite_block": "Adamantite Block",
+  "block.myfirstmod.nanite_infuser": "Nanite Infuser",
 
   "creativetab.myfirstmod.gemforge": "Gemforge"
 }

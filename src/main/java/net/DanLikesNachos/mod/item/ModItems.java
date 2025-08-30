@@ -19,6 +19,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ADAMANTITE_INGOT = ITEMS.register("adamantite_ingot",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CIRCUIT = ITEMS.register("circuit",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NANO_CIRCUIT = ITEMS.register("nano_circuit",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CONTAINED_PHOTON = ITEMS.register("contained_photon",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PHOTONIC_QUBIT = ITEMS.register("photonic_qubit",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

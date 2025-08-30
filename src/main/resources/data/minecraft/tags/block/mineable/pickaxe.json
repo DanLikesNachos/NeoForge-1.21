@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "myfirstmod:onyx_ore",
+    "myfirstmod:onyx_deepslate_ore",
+    "myfirstmod:mithril_ore",
+    "myfirstmod:mithril_deepslate_ore",
+    "myfirstmod:mithril_block",
+    "myfirstmod:adamantite_ore",
+    "myfirstmod:adamantite_block",
+    "myfirstmod:nanite_infuser"
+  ]
+}

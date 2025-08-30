@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "myfirstmod:mithril_ore",
+    "myfirstmod:mithril_deepslate_ore",
+    "myfirstmod:mithril_block",
+    "myfirstmod:adamantite_ore",
+    "myfirstmod:adamantite_block"
+  ]
+}
