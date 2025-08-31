@@ -1,0 +1,9 @@
+// 1.21	2025-08-31T15:15:13.829218	Loot Tables
+96568c41ed7c67e920ace75ab9a16151e0450297 data/myfirstmod/loot_table/blocks/adamantite_block.json
+534824c67ae15d680345fb01de47fe5842b329ab data/myfirstmod/loot_table/blocks/adamantite_ore.json
+1f320619d2b3a74e3f447e01a20b04a9566484e2 data/myfirstmod/loot_table/blocks/mithril_block.json
+bc11cd1597de383d8137e1b7429ca6b576897fce data/myfirstmod/loot_table/blocks/mithril_deepslate_ore.json
+db0579c9242a6422658644b48de0c99009caf983 data/myfirstmod/loot_table/blocks/mithril_ore.json
+1154a123d16b98a66426074803b53adaf1c302e4 data/myfirstmod/loot_table/blocks/nanite_infuser.json
+fee232c48b98f74c63b1a0c43c19bcd9d5067e6b data/myfirstmod/loot_table/blocks/onyx_deepslate_ore.json
+d461bbd2cc39b130eee9a5fbce4969b1b2964a97 data/myfirstmod/loot_table/blocks/onyx_ore.json
