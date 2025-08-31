@@ -1,4 +1,6 @@
 {
+  "item.myfirstmod.nano_bread": "Nano Bread",
+
   "item.myfirstmod.onyx": "Onyx",
   "item.myfirstmod.raw_mithril": "Raw Mithril",
   "item.myfirstmod.raw_adamantite": "Raw Adamantite",
@@ -8,6 +10,7 @@
   "item.myfirstmod.nano_circuit": "Nano Circuit",
   "item.myfirstmod.contained_photon": "Contained Photon",
   "item.myfirstmod.photonic_qubit": "Photonic Qubit",
+  "item.myfirstmod.catalyst": "Catalyst",
 
   "block.myfirstmod.mithril_ore": "Mithril Ore",
   "block.myfirstmod.mithril_deepslate_ore": "Mithril Deepslate Ore",

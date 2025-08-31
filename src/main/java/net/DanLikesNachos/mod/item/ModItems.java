@@ -27,6 +27,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PHOTONIC_QUBIT = ITEMS.register("photonic_qubit",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NANO_BREAD = ITEMS.register("nano_bread",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.NANO_BREAD)));
+    public static final DeferredItem<Item> CATALYST = ITEMS.register("catalyst",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

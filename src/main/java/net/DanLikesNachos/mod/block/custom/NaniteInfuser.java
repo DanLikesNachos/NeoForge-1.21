@@ -7,6 +7,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -27,6 +28,9 @@ public class NaniteInfuser extends Block {
         if (entity instanceof  ItemEntity itemEntity) {
             if (itemEntity.getItem().getItem() == ModItems.CONTAINED_PHOTON.get()) {
                 itemEntity.setItem(new ItemStack(ModItems.PHOTONIC_QUBIT.get(), itemEntity.getItem().getCount()));
+            }
+            if (itemEntity.getItem().getItem() == Items.BREAD) {
+                itemEntity.setItem(new ItemStack(ModItems.NANO_BREAD.get(), itemEntity.getItem().getCount()));
             }
         }
 

@@ -36,6 +36,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CONTAINED_PHOTON);
                         output.accept(ModItems.PHOTONIC_QUBIT);
                         output.accept(ModBlocks.NANITE_INFUSER);
+                        output.accept(ModItems.NANO_BREAD);
+                        output.accept(ModItems.CATALYST);
                     }).build());
 
 
