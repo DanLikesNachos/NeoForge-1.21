@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "onyx",
+  "ingredients": [
+    {
+      "item": "myfirstmod:onyx"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "myfirstmod:onyx_button"
+  }
+}

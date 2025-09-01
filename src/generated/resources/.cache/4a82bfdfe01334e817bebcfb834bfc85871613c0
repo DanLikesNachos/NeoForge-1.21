@@ -1,1 +1,6 @@
-// 1.21	2025-08-31T16:13:56.1608	Tags for minecraft:item mod id myfirstmod
+// 1.21	2025-09-01T02:44:08.180766	Tags for minecraft:item mod id myfirstmod
+5daf4ce262fdbfc318bcf8b9539fd2d8eab11b80 data/minecraft/tags/item/axes.json
+54591c4c54cc98d6e3bde877b1d60a18378b7a36 data/minecraft/tags/item/hoes.json
+112f80eec75f5f7852fa7832d28dff20200477de data/minecraft/tags/item/pickaxes.json
+b949d787b49428fd44b5e9ad2250db9c0cb42432 data/minecraft/tags/item/shovels.json
+434c025827c65806aa0e9aec812ad09635f1df5d data/minecraft/tags/item/swords.json

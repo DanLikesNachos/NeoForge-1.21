@@ -30,6 +30,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.MITHRIL_BLOCK.get());
         dropSelf(ModBlocks.ADAMANTITE_BLOCK.get());
         dropSelf(ModBlocks.NANITE_INFUSER.get());
+        dropSelf(ModBlocks.ONYX_BLOCK.get());
 
         add(ModBlocks.ONYX_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.ONYX_ORE.get(), ModItems.ONYX.get(), 2, 5));
@@ -42,6 +43,20 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.ADAMANTITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.ADAMANTITE_ORE.get(), ModItems.RAW_ADAMANTITE.get()));
 
+        dropSelf(ModBlocks.ONYX_STAIRS.get());
+        add(ModBlocks.ONYX_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ONYX_SLAB.get()));
+
+        dropSelf(ModBlocks.ONYX_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.ONYX_BUTTON.get());
+
+        dropSelf(ModBlocks.ONYX_FENCE.get());
+        dropSelf(ModBlocks.ONYX_FENCE_GATE.get());
+        dropSelf(ModBlocks.ONYX_WALL.get());
+        dropSelf(ModBlocks.ONYX_TRAPDOOR.get());
+
+        add(ModBlocks.ONYX_DOOR.get(),
+                block -> createDoorTable(ModBlocks.ONYX_DOOR.get()));
     }
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
         HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);

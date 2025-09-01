@@ -1,4 +1,9 @@
-// 1.21	2025-08-31T16:13:56.16041	Tags for minecraft:block mod id myfirstmod
-fa8ed02ee8b22a9ce628fe5f1f11553c232b8b17 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21	2025-09-01T02:44:08.180547	Tags for minecraft:block mod id myfirstmod
+617e760155ecd5f646e0ceb92c39bfa48b764f66 data/minecraft/tags/block/fence_gates.json
+3880ce58ad756ed506e67eb47916892edb3f3d37 data/minecraft/tags/block/fences.json
+a9cba30a6fc462254ba2403d0053d5911aaf35df data/minecraft/tags/block/mineable/pickaxe.json
 1d26c34ab89a9907b2a7c24cf8e3bafa43c4c61f data/minecraft/tags/block/needs_diamond_tool.json
-eba793b0afb541fe67732721dff4b8e5ac54f6c8 data/minecraft/tags/block/needs_iron_tool.json
+6053568b2414d40e2b6355f3d8fba59722113e3d data/minecraft/tags/block/needs_iron_tool.json
+61e9f67205fda79cc5f35cb12e8d591a94765b3e data/minecraft/tags/block/walls.json
+00765de56d314686dba95bfd3f5e363500eaded6 data/myfirstmod/tags/block/incorrect_for_mithril_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/myfirstmod/tags/block/needs_mithril_tool.json

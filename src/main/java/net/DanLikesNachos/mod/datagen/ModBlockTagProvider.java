@@ -2,6 +2,7 @@ package net.DanLikesNachos.mod.datagen;
 
 import net.DanLikesNachos.mod.Mod;
 import net.DanLikesNachos.mod.block.ModBlocks;
+import net.DanLikesNachos.mod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -26,15 +27,26 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ADAMANTITE_ORE.get())
                 .add(ModBlocks.ADAMANTITE_BLOCK.get())
                 .add(ModBlocks.MITHRIL_BLOCK.get())
+                .add(ModBlocks.ONYX_BLOCK.get())
                 .add(ModBlocks.NANITE_INFUSER.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ONYX_ORE.get())
-                .add(ModBlocks.ONYX_DEEPSLATE_ORE.get());
+                .add(ModBlocks.ONYX_DEEPSLATE_ORE.get())
+                        .add(ModBlocks.ONYX_BLOCK.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_ORE.get())
                 .add(ModBlocks.MITHRIL_DEEPSLATE_ORE.get())
                 .add(ModBlocks.MITHRIL_BLOCK.get())
                 .add(ModBlocks.ADAMANTITE_ORE.get())
                 .add(ModBlocks.ADAMANTITE_BLOCK.get());
+        tag(BlockTags.FENCES).add(ModBlocks.ONYX_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.ONYX_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.ONYX_WALL.get());
+
+        tag(ModTags.Blocks.NEEDS_MITHRIL_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_MITHRIL_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_MITHRIL_TOOL);
     }
 }

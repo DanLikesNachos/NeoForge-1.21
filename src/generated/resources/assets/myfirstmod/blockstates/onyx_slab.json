@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "myfirstmod:block/onyx_slab"
+    },
+    "type=double": {
+      "model": "myfirstmod:block/onyx_block"
+    },
+    "type=top": {
+      "model": "myfirstmod:block/onyx_slab_top"
+    }
+  }
+}

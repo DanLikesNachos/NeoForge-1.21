@@ -1,9 +1,19 @@
-// 1.21	2025-08-31T15:15:13.829218	Loot Tables
+// 1.21	2025-08-31T23:19:01.719567	Loot Tables
 96568c41ed7c67e920ace75ab9a16151e0450297 data/myfirstmod/loot_table/blocks/adamantite_block.json
 534824c67ae15d680345fb01de47fe5842b329ab data/myfirstmod/loot_table/blocks/adamantite_ore.json
 1f320619d2b3a74e3f447e01a20b04a9566484e2 data/myfirstmod/loot_table/blocks/mithril_block.json
 bc11cd1597de383d8137e1b7429ca6b576897fce data/myfirstmod/loot_table/blocks/mithril_deepslate_ore.json
 db0579c9242a6422658644b48de0c99009caf983 data/myfirstmod/loot_table/blocks/mithril_ore.json
 1154a123d16b98a66426074803b53adaf1c302e4 data/myfirstmod/loot_table/blocks/nanite_infuser.json
+ba58b31549cfcd31f0c053344ab2dfcee82f43f8 data/myfirstmod/loot_table/blocks/onyx_block.json
+05b165fa30db66ecd3e302a663594b0ca5404c83 data/myfirstmod/loot_table/blocks/onyx_button.json
 fee232c48b98f74c63b1a0c43c19bcd9d5067e6b data/myfirstmod/loot_table/blocks/onyx_deepslate_ore.json
+f52f15342945f9d74d5fb87a4c2c61dbccea3d36 data/myfirstmod/loot_table/blocks/onyx_door.json
+6096f532b5aa62014f9d0e2de0d38afbf8146324 data/myfirstmod/loot_table/blocks/onyx_fence.json
+0846b9e3b43f3dda67585d003ff4d347937752b4 data/myfirstmod/loot_table/blocks/onyx_fence_gate.json
 d461bbd2cc39b130eee9a5fbce4969b1b2964a97 data/myfirstmod/loot_table/blocks/onyx_ore.json
+bbc77c8da1094757b9269b1134a2dbf4680cd91f data/myfirstmod/loot_table/blocks/onyx_pressure_plate.json
+7ec018708426d0c1d32c0307fdad0ea9e22088a7 data/myfirstmod/loot_table/blocks/onyx_slab.json
+9ba2ea8c4dffd7df84a82193f10eda41232a5aee data/myfirstmod/loot_table/blocks/onyx_stairs.json
+2dfd753eb24c8f16d1b9d933880fa1f019c08bb7 data/myfirstmod/loot_table/blocks/onyx_trapdoor.json
+e4a50225fe03a422d5d0acb89e050fe1b49a388c data/myfirstmod/loot_table/blocks/onyx_wall.json

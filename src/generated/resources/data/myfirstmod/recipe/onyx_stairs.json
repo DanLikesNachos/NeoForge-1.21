@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "onyx",
+  "key": {
+    "#": {
+      "item": "myfirstmod:onyx"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "myfirstmod:onyx_stairs"
+  }
+}

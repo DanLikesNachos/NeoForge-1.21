@@ -1,12 +1,21 @@
-// 1.21	2025-08-31T15:41:02.222767	Item Models: myfirstmod
+// 1.21	2025-09-01T02:44:08.180018	Item Models: myfirstmod
 1ab3e92ced1850a6bc1fdaba431d02df777b572f assets/myfirstmod/models/item/adamantite_ingot.json
 297167fe736a22a0568208bd75b3c675cd6af0cb assets/myfirstmod/models/item/catalyst.json
 25decb0edc5691c4a884a1dbbc0bfca36afd4cfa assets/myfirstmod/models/item/circuit.json
 7a13d9884b8ff5f53e3a03e56f1837adb2df6d22 assets/myfirstmod/models/item/contained_photon.json
+1df0eee485addca8e3f2da95146e72c54f5101f8 assets/myfirstmod/models/item/mithril_axe.json
+ac2da08062ef868cd3fa4f0d3efca49083f0a408 assets/myfirstmod/models/item/mithril_hoe.json
 53600efb052ff7d117658e64dbc480d17dff59ee assets/myfirstmod/models/item/mithril_ingot.json
+c9dd218db32a596c802aa67e2e9e65125374fcaf assets/myfirstmod/models/item/mithril_pickaxe.json
+27ec23da1b701f5d90efa4b776172afc042ece90 assets/myfirstmod/models/item/mithril_shovel.json
+d3e4aea62e1546501c8331df464c44ddd80f7a87 assets/myfirstmod/models/item/mithril_sword.json
 726d7ca746d5ac93ad5b448a14aa289ba4538dc4 assets/myfirstmod/models/item/nano_bread.json
 b41441151f4b559e543b704f8be91982cd1d9b9b assets/myfirstmod/models/item/nano_circuit.json
 e73b10e034a0276d0b5268aa7ffc342472281c85 assets/myfirstmod/models/item/onyx.json
+56eb33b1a565b86decdae561f51cc0f94714fc22 assets/myfirstmod/models/item/onyx_button.json
+0d11d35411539f8f8116f7cbb7af706a4d058acb assets/myfirstmod/models/item/onyx_door.json
+5d7246963a0249f01f3d1d5aa9cb710519c7c128 assets/myfirstmod/models/item/onyx_fence.json
+121b00ae0df75801104f94447b010d9fc547760c assets/myfirstmod/models/item/onyx_wall.json
 4f888b3c5254e0a59794a87936d464120b53c9ba assets/myfirstmod/models/item/photonic_qubit.json
 7fd7120f8823dc5acc0d1462fc9269d988f8c8cd assets/myfirstmod/models/item/raw_adamantite.json
 f42ef457dc0d8009b8fd006ac08fa9834b649d26 assets/myfirstmod/models/item/raw_mithril.json

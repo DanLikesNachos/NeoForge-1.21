@@ -6,6 +6,11 @@
   "item.myfirstmod.raw_adamantite": "Raw Adamantite",
   "item.myfirstmod.mithril_ingot": "Mithril Ingot",
   "item.myfirstmod.adamantite_ingot": "Adamantite Ingot",
+  "item.myfirstmod.mithril_sword": "Mithril Sword",
+  "item.myfirstmod.mithril_pickaxe": "Mithril Pickaxe",
+  "item.myfirstmod.mithril_shovel": "Mithril Shovel",
+  "item.myfirstmod.mithril_axe": "Mithril Axe",
+  "item.myfirstmod.mithril_hoe": "Mithril Hoe",
   "item.myfirstmod.circuit": "Circuit",
   "item.myfirstmod.nano_circuit": "Nano Circuit",
   "item.myfirstmod.contained_photon": "Contained Photon",
@@ -17,9 +22,23 @@
   "block.myfirstmod.onyx_ore": "Onyx Ore",
   "block.myfirstmod.onyx_deepslate_ore": "Onyx Deepslate Ore",
   "block.myfirstmod.adamantite_ore": "Adamantite Ore",
+  "block.myfirstmod.onyx_block": "Onyx Block",
   "block.myfirstmod.mithril_block": "Mithril Block",
   "block.myfirstmod.adamantite_block": "Adamantite Block",
   "block.myfirstmod.nanite_infuser": "Nanite Infuser",
+
+  "block.myfirstmod.onyx_stairs": "Onyx Stairs",
+  "block.myfirstmod.onyx_slab": "Onyx Slab",
+
+  "block.myfirstmod.onyx_pressure_plate": "Onyx Pressure Plate",
+  "block.myfirstmod.onyx_button": "Onyx Button",
+
+  "block.myfirstmod.onyx_fence": "Onyx Fence",
+  "block.myfirstmod.onyx_fence_gate": "Onyx Fence Gate",
+  "block.myfirstmod.onyx_wall": "Onyx Wall",
+
+  "block.myfirstmod.onyx_door": "Onyx Door",
+  "block.myfirstmod.onyx_trapdoor": "Onyx Trapdoor",
 
   "creativetab.myfirstmod.gemforge": "Gemforge"
 }

@@ -53,6 +53,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.ADAMANTITE_BLOCK)
                 .unlockedBy("has_adamantite_block", has(ModBlocks.ADAMANTITE_BLOCK)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ONYX_BLOCK.get())
+                .pattern("OOO")
+                .pattern("OOO")
+                .pattern("OOO")
+                .define('O', ModItems.ONYX.get())
+                .unlockedBy("has_onyx", has(ModItems.ONYX)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ONYX.get(), 9)
+                .requires(ModBlocks.ONYX_BLOCK)
+                .unlockedBy("has_onyx_block", has(ModBlocks.ONYX_BLOCK)).save(recipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CATALYST.get())
                 .requires(ItemTags.COALS)
                 .requires(Items.MAGMA_BLOCK)
@@ -108,6 +119,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(recipeOutput, ONYX_SMELTABLES, RecipeCategory.MISC, ModItems.ONYX.get(), 0.25f, 200, "onyx");
         oreBlasting(recipeOutput, ONYX_SMELTABLES, RecipeCategory.MISC, ModItems.ONYX.get(), 0.25f, 100, "onyx");
+
+        stairBuilder(ModBlocks.ONYX_STAIRS.get(), Ingredient.of(ModItems.ONYX)).group("onyx")
+                .unlockedBy("has_onyx", has(ModItems.ONYX)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ONYX_SLAB.get(), ModItems.ONYX.get());
+
+        buttonBuilder(ModBlocks.ONYX_BUTTON.get(), Ingredient.of(ModItems.ONYX.get())).group("onyx")
+                .unlockedBy("has_onyx", has(ModItems.ONYX.get())).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.ONYX_PRESSURE_PLATE.get(), ModItems.ONYX.get());
+
+        fenceBuilder(ModBlocks.ONYX_FENCE.get(), Ingredient.of(ModItems.ONYX.get())).group("onyx")
+                .unlockedBy("has_onyx", has(ModItems.ONYX.get())).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.ONYX_FENCE_GATE.get(), Ingredient.of(ModItems.ONYX.get())).group("onyx")
+                .unlockedBy("has_onyx", has(ModItems.ONYX.get())).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ONYX_WALL.get(), ModItems.ONYX.get());
+
+        doorBuilder(ModBlocks.ONYX_DOOR.get(), Ingredient.of(ModItems.ONYX.get())).group("onyx")
+                .unlockedBy("has_onyx", has(ModItems.ONYX.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.ONYX_TRAPDOOR.get(), Ingredient.of(ModItems.ONYX.get())).group("onyx")
+                .unlockedBy("has_onyx", has(ModItems.ONYX.get())).save(recipeOutput);
+
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
