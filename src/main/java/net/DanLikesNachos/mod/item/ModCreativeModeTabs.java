@@ -37,10 +37,30 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ADAMANTITE_INGOT);
 
                         output.accept(ModItems.MITHRIL_SWORD);
+                        output.accept(ModItems.MITHRIL_AXE);
                         output.accept(ModItems.MITHRIL_PICKAXE);
                         output.accept(ModItems.MITHRIL_SHOVEL);
-                        output.accept(ModItems.MITHRIL_AXE);
                         output.accept(ModItems.MITHRIL_HOE);
+
+                        output.accept(ModItems.MITHRIL_HAMMER);
+
+                        output.accept(ModItems.ADAMANTITE_SWORD);
+                        output.accept(ModItems.ADAMANTITE_AXE);
+                        output.accept(ModItems.ADAMANTITE_PICKAXE);
+                        output.accept(ModItems.ADAMANTITE_SHOVEL);
+                        output.accept(ModItems.ADAMANTITE_HOE);
+
+                        output.accept(ModItems.ADAMANTITE_HAMMER);
+
+                        output.accept(ModItems.MITHRIL_HELMET);
+                        output.accept(ModItems.MITHRIL_CHESTPLATE);
+                        output.accept(ModItems.MITHRIL_LEGGINGS);
+                        output.accept(ModItems.MITHRIL_BOOTS);
+
+                        output.accept(ModItems.ADAMANTITE_HELMET);
+                        output.accept(ModItems.ADAMANTITE_CHESTPLATE);
+                        output.accept(ModItems.ADAMANTITE_LEGGINGS);
+                        output.accept(ModItems.ADAMANTITE_BOOTS);
 
                         output.accept(ModItems.CIRCUIT);
                         output.accept(ModItems.NANO_CIRCUIT);

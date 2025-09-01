@@ -6,11 +6,33 @@
   "item.myfirstmod.raw_adamantite": "Raw Adamantite",
   "item.myfirstmod.mithril_ingot": "Mithril Ingot",
   "item.myfirstmod.adamantite_ingot": "Adamantite Ingot",
+
   "item.myfirstmod.mithril_sword": "Mithril Sword",
+  "item.myfirstmod.mithril_axe": "Mithril Axe",
   "item.myfirstmod.mithril_pickaxe": "Mithril Pickaxe",
   "item.myfirstmod.mithril_shovel": "Mithril Shovel",
-  "item.myfirstmod.mithril_axe": "Mithril Axe",
   "item.myfirstmod.mithril_hoe": "Mithril Hoe",
+
+  "item.myfirstmod.mithril_hammer": "Mithril Hammer",
+
+  "item.myfirstmod.mithril_helmet": "Mithril Helmet",
+  "item.myfirstmod.mithril_chestplate": "Mithril Chestplate",
+  "item.myfirstmod.mithril_leggings": "Mithril Leggings",
+  "item.myfirstmod.mithril_boots": "Mithril Boots",
+
+  "item.myfirstmod.adamantite_sword": "Adamantite Sword",
+  "item.myfirstmod.adamantite_axe": "Adamantite Axe",
+  "item.myfirstmod.adamantite_pickaxe": "Adamantite Pickaxe",
+  "item.myfirstmod.adamantite_shovel": "Adamantite Shovel",
+  "item.myfirstmod.adamantite_hoe": "Adamantite Hoe",
+
+  "item.myfirstmod.adamantite_hammer": "Adamantite Hammer",
+
+  "item.myfirstmod.adamantite_helmet": "Adamantite Helmet",
+  "item.myfirstmod.adamantite_chestplate": "Adamantite Chestplate",
+  "item.myfirstmod.adamantite_leggings": "Adamantite Leggings",
+  "item.myfirstmod.adamantite_boots": "Adamantite Boots",
+
   "item.myfirstmod.circuit": "Circuit",
   "item.myfirstmod.nano_circuit": "Nano Circuit",
   "item.myfirstmod.contained_photon": "Contained Photon",

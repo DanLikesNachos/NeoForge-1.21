@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
+import javax.swing.text.html.HTML;
 import java.util.concurrent.CompletableFuture;
 
 public class ModItemTagProvider extends ItemTagsProvider {
@@ -31,5 +32,26 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.MITHRIL_AXE.get());
         tag(ItemTags.HOES)
                 .add(ModItems.MITHRIL_HOE.get());
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.ADAMANTITE_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.ADAMANTITE_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.ADAMANTITE_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.ADAMANTITE_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.ADAMANTITE_HOE.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.MITHRIL_HELMET.get())
+                .add(ModItems.MITHRIL_CHESTPLATE.get())
+                .add(ModItems.MITHRIL_LEGGINGS.get())
+                .add(ModItems.MITHRIL_BOOTS.get())
+                .add(ModItems.ADAMANTITE_HELMET.get())
+                .add(ModItems.ADAMANTITE_CHESTPLATE.get())
+                .add(ModItems.ADAMANTITE_LEGGINGS.get())
+                .add(ModItems.ADAMANTITE_BOOTS.get());
     }
 }
